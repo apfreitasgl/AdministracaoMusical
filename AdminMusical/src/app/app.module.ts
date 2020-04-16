@@ -1,11 +1,14 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppComponent } from './app.component';
+
+import { ListagemMusicasComponent } from './musicas/listagem-musicas.component/listagem-musicas.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ListagemMusicasComponent
   ],
   imports: [
     BrowserModule
