@@ -1,10 +1,18 @@
+import { Routes, RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+
+
+const APP_ROUTES: Routes = [
+     {
+      path: '',
+      loadChildren: './Musicas/musicas.module#MusicasModule'
+    }
+];
+
 
 @NgModule({
-  imports: [
-    CommonModule
-  ],
-  declarations: []
+  imports: [RouterModule.forRoot(APP_ROUTES)],
+  exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class RoutingModule { }
+

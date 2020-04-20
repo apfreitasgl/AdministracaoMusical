@@ -1,89 +1,90 @@
 import { Component, OnInit } from '@angular/core';
+import { Musica } from 'src/app/Modelo/musica';
 
 @Component({
-  selector: 'app-listagem-musicas.component',
-  templateUrl: './listagem-musicas.component.html'
+  selector: 'listagem-musicas',
+  templateUrl: './musicas-listagem.component.html'
 })
-export class ListagemMusicasComponent {
-  musicas: Array<Musica> = [ 
-    { 
+export class MusicasListagemComponent implements OnInit {
+  musicas: Array<Musica> = [
+    {
       "nome": "Não há ninguém como tu",
       "interprete": "Santa Geração",
       "album": "Faz-me Fluir",
       "audio": "nenhum",
-      "tonalidade": "E" 
-    },{ 
+      "tonalidade": "E"
+    },{
       "nome": "Não há ninguém como tu",
       "interprete": "Santa Geração",
       "album": "Faz-me Fluir",
       "audio": "nenhum",
-      "tonalidade": "E" 
-    },{ 
+      "tonalidade": "E"
+    },{
       "nome": "Não há ninguém como tu",
       "interprete": "Santa Geração",
       "album": "Faz-me Fluir",
       "audio": "nenhum",
-      "tonalidade": "E" 
-    },{ 
+      "tonalidade": "E"
+    },{
       "nome": "Não há ninguém como tu",
       "interprete": "Santa Geração",
       "album": "Faz-me Fluir",
       "audio": "nenhum",
-      "tonalidade": "E" 
-    },{ 
+      "tonalidade": "E"
+    },{
       "nome": "Não há ninguém como tu",
       "interprete": "Santa Geração",
       "album": "Faz-me Fluir",
       "audio": "nenhum",
-      "tonalidade": "E" 
-    },{ 
+      "tonalidade": "E"
+    },{
       "nome": "Não há ninguém como tu",
       "interprete": "Santa Geração",
       "album": "Faz-me Fluir",
       "audio": "nenhum",
-      "tonalidade": "E" 
-    },{ 
+      "tonalidade": "E"
+    },{
       "nome": "Não há ninguém como tu",
       "interprete": "Santa Geração",
       "album": "Faz-me Fluir",
       "audio": "nenhum",
-      "tonalidade": "E" 
-    },{ 
+      "tonalidade": "E"
+    },{
       "nome": "Não há ninguém como tu",
       "interprete": "Santa Geração",
       "album": "Faz-me Fluir",
       "audio": "nenhum",
-      "tonalidade": "E" 
-    },{ 
+      "tonalidade": "E"
+    },{
       "nome": "Não há ninguém como tu",
       "interprete": "Santa Geração",
       "album": "Faz-me Fluir",
       "audio": "nenhum",
-      "tonalidade": "E" 
-    },{ 
+      "tonalidade": "E"
+    },{
       "nome": "Não há ninguém como tu",
       "interprete": "Santa Geração",
       "album": "Faz-me Fluir",
       "audio": "nenhum",
-      "tonalidade": "E" 
-    },{ 
+      "tonalidade": "E"
+    },{
       "nome": "Não há ninguém como tu",
       "interprete": "Santa Geração",
       "album": "Faz-me Fluir",
       "audio": "nenhum",
-      "tonalidade": "E" 
-    },{ 
+      "tonalidade": "E"
+    },{
       "nome": "Não há ninguém como tu",
       "interprete": "Santa Geração",
       "album": "Faz-me Fluir",
       "audio": "nenhum",
-      "tonalidade": "E" 
-    },{ 
+      "tonalidade": "E"
+    },{
       "nome": "Não há ninguém como tu",
       "interprete": "Santa Geração",
       "album": "Faz-me Fluir",
       "audio": "nenhum",
-      "tonalidade": "E" 
+      "tonalidade": "E"
     }
   ];
 
