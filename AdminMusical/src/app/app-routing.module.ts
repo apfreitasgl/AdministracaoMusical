@@ -5,7 +5,7 @@ import { NgModule } from '@angular/core';
 const APP_ROUTES: Routes = [
      {
       path: '',
-      loadChildren: './Musicas/musicas.module#MusicasModule'
+      loadChildren: 'src/app/musicas/musicas.module#MusicasModule'
     }
 ];
 
