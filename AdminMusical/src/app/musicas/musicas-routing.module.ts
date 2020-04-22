@@ -7,7 +7,7 @@ import { MusicasListagemComponent } from './musicas-listagem.component/musicas-l
 
 
 const musicasRoutes: Routes = [
-  { path: '/Musicas', component: MusicasListagemComponent }
+  { path: '', component: MusicasListagemComponent }
 ];
 
 @NgModule({
