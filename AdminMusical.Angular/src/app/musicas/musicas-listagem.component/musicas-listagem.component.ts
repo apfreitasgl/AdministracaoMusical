@@ -6,18 +6,66 @@ import { Musica } from 'src/app/Modelo/musica';
   templateUrl: './musicas-listagem.component.html'
 })
 export class MusicasListagemComponent implements OnInit {
-  musicas: Array<Musica> = [];
+  musicas: Array<Musica> =  [
+    { "nome": "Não há ninguém como tu",
+      "interprete": "Santa Geração",
+      "album": "Faz-me Fluir",
+      "audio": "nenhum",
+      "tonalidade": "E"
+    },
+    { "nome": "Não há ninguém como tu",
+      "interprete": "Santa Geração",
+      "album": "Faz-me Fluir",
+      "audio": "nenhum",
+      "tonalidade": "E"
+    },
+    { "nome": "Não há ninguém como tu",
+      "interprete": "Santa Geração",
+      "album": "Faz-me Fluir",
+      "audio": "nenhum",
+      "tonalidade": "E"
+    },
+    { "nome": "Não há ninguém como tu",
+      "interprete": "Santa Geração",
+      "album": "Faz-me Fluir",
+      "audio": "nenhum",
+      "tonalidade": "E"
+    },
+    { "nome": "Não há ninguém como tu",
+      "interprete": "Santa Geração",
+      "album": "Faz-me Fluir",
+      "audio": "nenhum",
+      "tonalidade": "E"
+    },
+    { "nome": "Não há ninguém como tu",
+      "interprete": "Santa Geração",
+      "album": "Faz-me Fluir",
+      "audio": "nenhum",
+      "tonalidade": "E"
+    },
+    { "nome": "Não há ninguém como tu",
+      "interprete": "Santa Geração",
+      "album": "Faz-me Fluir",
+      "audio": "nenhum",
+      "tonalidade": "E"
+    },
+    { "nome": "Não há ninguém como tu",
+      "interprete": "Santa Geração",
+      "album": "Faz-me Fluir",
+      "audio": "nenhum",
+      "tonalidade": "E"
+    },
+    { "nome": "Não há ninguém como tu",
+      "interprete": "Santa Geração",
+      "album": "Faz-me Fluir",
+      "audio": "nenhum",
+      "tonalidade": "E"
+    }
+  ];
 
   constructor() { }
 
   ngOnInit(): void {
-    const musica = new Musica();
-    musica.nome = 'Não há ninguém como tu';
-    musica.interprete = 'Santa Geração';
-    musica.album = 'Faz-me Fluir';
-    musica.audio = 'nenhum';
-    musica.tonalidade = 'E';
-    this.musicas.push(musica);
   }
 
 }
