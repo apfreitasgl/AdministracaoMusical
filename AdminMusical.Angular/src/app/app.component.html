@@ -1,0 +1,15 @@
+
+<div class="container-fluid">
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
+    <a [routerLink]="['/musica']">Repertorio</a>
+  </div>
+
+  <div id="main" >
+    <span style="font-size:30px;cursor:pointer" (click)="openNav()">&#9776;</span>
+    <router-outlet>
+
+    </router-outlet>
+
+  </div>
+</div>

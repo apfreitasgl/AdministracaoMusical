@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 
 const APP_ROUTES: Routes = [
      {
-      path: '',
+      path: 'musica',
       loadChildren: () => import('./musicas/musicas.module').then(m => m.MusicasModule)
     }
 ];
